@@ -57,12 +57,16 @@
 
 			.header h1 {
 			  margin-left: 500x; /* Same as the width of the sidenav */
-			  padding: 0px 10px;
+			 
 			}
 		</style>
 	</head>
 	<body>
 		
+		<div class="header">
+		  
+		  <h1>Wan-Chun Su</h1>
+		</div>  	
 
 		
 		<div class="sidebar">
@@ -75,11 +79,95 @@
 	  		<a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
 		</div>
 		
+		
+
+
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/png" href="images/my_logo.png" />
+		<title>
+		Wan-Chun Su
+		</title>
+		<style>
+			body {
+				background-color: lightblue;
+				font-family: "Trebuchet MS", Helvetica, sans-serif
+			}
+			
+			.sidebar {
+			  height: 100%;
+			  width: 300px;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  left: 0;
+			  background-color: #111;
+			  overflow-x: hidden;
+			  padding-top: 16px;
+			}
+
+			.sidebar a { /*top right bottom left*/
+			  padding: 50px 8px 6px 40px;
+			  text-decoration: none;
+			  font-size: 30px;
+			  color: #818181;
+			  display: block;
+			}
+
+			.sidebar a:hover {
+			  color: #99ffff;
+			}
+
+			
+
+			@media screen and (max-height: 450px) {
+			  .sidebar {padding-top: 15px;}
+			  .sidebar a {font-size: 18px;}
+			}
+
+			.sidebar img {
+			display:block;
+			  float: left;
+			  
+			  width: 160px;
+			  height: 160px;
+			  padding: 35px 8px 6px 60px;
+			  
+			}
+
+			.header h1 {
+			  margin-left: 400x; /* Same as the width of the sidenav */
+			 
+			}
+		</style>
+	</head>
+	<body>
+		
 		<div class="header">
 		  
 		  <h1>Wan-Chun Su</h1>
 		</div>  	
 
+		
+		<div class="sidebar">
+			<div> <img src="images/my_logo.png" alt="logo" /> </div>
+			<div style="clear: both">
+	  		<a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+	  		
+	  		<a href="aboutme.html"><i class="fa fa-fw fa-user"></i> About Me</a>
+	  		<a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
+	  		<a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+		</div>
+		
+		
 
 
 	</body>
