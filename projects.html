@@ -17,7 +17,7 @@
 				font-family: "Trebuchet MS", Helvetica, sans-serif
 				
 			}
-			
+			/* ----- sidebar style ------*/
 			.sidebar {
 			  display:block;
 			  height: 100%;
@@ -59,116 +59,30 @@
 			  padding: 35px 8px 6px 80px;
 			  
 			}
+
+			/* ----- sidebar style ------*/
+
+			
 			/*.header {
 				margin-left:400px;
 			}*/
-			/*.header img {
+			.header img {
 			  float: left;
 			  margin-left:200px;
 			  width: 100px;
 			  height: 100px;
 			  
-			}*/
+			}
 
-			/*.header h1 {
+			.header h1 {
 			  position: relative;
 			  top: 18px;
 			  left: 10px;
-			}*/
+			}
 			
 
-			* {
-			  box-sizing: border-box;
-			}
-
-			.container img {
-			  vertical-align: middle;
-			}
-			/*
-			 Position the image container (needed to position the left and right arrows) */
-			.container {
-			  margin-left:500px;
-			  margin-right:50px;
-			  position: relative;
-			}
-
-			/*	 Hide the images by default */
-			.mySlides {
-			  display: none;
-			}
-
-			 /*Add a pointer when hovering over the thumbnail images */
-			.cursor {
-			  cursor: pointer;
-			}
-
-			 /*Next & previous buttons */
-			.prev,
-			.next {
-			  cursor: pointer;
-			  position: absolute;
-			  top: 40%;
-			  width: auto;
-			  padding: 16px;
-			  margin-top: -50px;
-			  color: white;
-			  font-weight: bold;
-			  font-size: 20px;
-			  border-radius: 0 3px 3px 0;
-			  user-select: none;
-			  -webkit-user-select: none;
-			}
-
-			 /*Position the "next button" to the right */
-			.next {
-			  right: 0;
-			  border-radius: 3px 0 0 3px;
-			}
-
-			/* On hover, add a black background color with a little bit see-through */
-			.prev:hover,
-			.next:hover {
-			  background-color: rgba(0, 0, 0, 0.8);
-			}
-
-			/* Number text (1/3 etc) */
-			.numbertext {
-			  color: #f2f2f2;
-			  font-size: 12px;
-			  padding: 8px 12px;
-			  position: absolute;
-			  top: 0;
-			}
-
-			/* Container for image text */
-			.caption-container {
-			  text-align: center;
-			  background-color: #222;
-			  padding: 2px 16px;
-			  color: white;
-			}
-
-			.row:after {
-			  content: "";
-			  display: table;
-			  clear: both;
-			}
-
-			/* Six columns side by side */
-			.column {
-			  float: left;
-			  width: 16.66%;
-			}
-
-			/* Add a transparency effect for thumnbail images */
-			.demo {
-			  opacity: 0.6;
-			}
-
-			.active,
-			.demo:hover {
-			  opacity: 1;
-			}*/
+			
+			
 		</style>
 	</head>
 	<body>
@@ -176,66 +90,13 @@
 		<h1> Still Under Maintenance </h1>
 	</div> -->
 		<div class="header">
-  			<a href="https://github.com/HelenG123/aeye-alliance"><!-- <img src="images/aea_logo.png" alt="logo" /> --> </a>
-  			<!-- <h1>AEyeAlliance</h1> -->
+  			<a href="https://github.com/HelenG123/aeye-alliance"><img src="images/aea_logo.png" alt="logo" /> </a>
+  			<h1>AEyeAlliance</h1>
 		</div>
 		
-		<!-- <h2 style="text-align:center">A Braille-to-text Converter using Computer Vision</h2> -->
+		<h2 style="text-align:center">A Braille-to-text Converter using Computer Vision</h2>
 
-		<div class="container">
-		  <div class="mySlides">
-		    <div class="numbertext">1 / 4</div>
-		    <img src="images/demo_night.jpg" style="width:100%; ">
-		  </div>
-
-		  <div class="mySlides">
-		    <div class="numbertext">2 / 4</div>
-		    <img src="images/braille_char_chart.png" style="width:100%;">
-		  </div>
-
-		  <div class="mySlides">
-		    <div class="numbertext">3 / 4</div>
-		    <img src="images/web_and_android.gif" style="width:100%; ">
-		  </div>
-		    
-		  <!-- <div class="mySlides">
-		    <div class="numbertext">4 / 5</div>
-		    <img src="images/web_app.gif" style="width:100%">
-		  </div> -->
-
-		  <div class="mySlides">
-		    <div class="numbertext">4 / 4</div>
-		    <img src="images/dataset_and_perf.png" style="width:100%; ">
-		  </div>
-		    
-		  
-		    
-		  <a class="prev" onclick="plusSlides(-1)">❮</a>
-		  <a class="next" onclick="plusSlides(1)">❯</a>
-
-		  <div class="caption-container">
-		    <p id="caption"></p>
-		  </div>
-
-		  <div class="row">
-		    <div class="column">
-		      <img class="demo cursor" src="images/demo_night.jpg" style="width:100%; height:80px;" onclick="currentSlide(1)" alt="The Team">
-		    </div>
-		    <div class="column">
-		      <img class="demo cursor" src="images/braille_char_chart.png" style="width:100%; height:80px;" onclick="currentSlide(2)" alt="Our Dataset: Braille37">
-		    </div>
-		    <div class="column">
-		      <img class="demo cursor" src="images/web_and_android.gif" style="width:100%; height:80px;" onclick="currentSlide(3)" alt="Website (left) and Android App (right)">
-		    </div>
-		    <!-- <div class="column">
-		      <img class="demo cursor" src="images/web_app.gif" style="width:100%" onclick="currentSlide(4)" alt="Website">
-		    </div> -->
-		    <div class="column">
-		      <img class="demo cursor" src="images/dataset_and_perf.png" style="width:100%; height:80px;" onclick="currentSlide(4)" alt="Dataset Size and Training Performance">
-		    </div>    
-		   
-		  </div>
-		</div>
+		
 		
 		 	
 
@@ -248,40 +109,6 @@
 	  		<a href="aboutme.html"><i class="fa fa-fw fa-user"></i> About Me</a>
 	  		<a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
 		</div>
-
-		
-		
-		
-		<script>
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-		  showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-		  showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("demo");
-		  var captionText = document.getElementById("caption");
-		  if (n > slides.length) {slideIndex = 1}
-		  if (n < 1) {slideIndex = slides.length}
-		  for (i = 0; i < slides.length; i++) {
-		      slides[i].style.display = "none";
-		  }
-		  for (i = 0; i < dots.length; i++) {
-		      dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";
-		  dots[slideIndex-1].className += " active";
-		  captionText.innerHTML = dots[slideIndex-1].alt;
-		}
-		</script>
 
 	</body>
 </html>
