@@ -73,13 +73,65 @@
 			  height: 100px;
 			  
 			}
+			.header img:hover{
+				opacity:0.7;
+			}
 
 			.header h1 {
 			  position: relative;
 			  top: 18px;
 			  left: 10px;
 			}
-			
+		/* ----- style for image gallery -----*/
+			div.gallery {
+			  	border: 1px solid #ccc;
+			}
+
+			div.gallery:hover {
+			  border: 1px solid #777;
+			}
+
+			div.gallery img {
+			  width: 100%;
+			  height: auto;
+			}
+
+			div.desc {
+			  padding: 15px;
+			  text-align: center;
+			}
+
+			* {
+			  box-sizing: border-box;
+			}
+
+			.responsive {
+			  padding: 0 6px;
+			  float: left;
+			  width: 24.99999%;
+			}
+
+			@media only screen and (max-width: 700px) {
+			  .responsive {
+			    width: 49.99999%;
+			    margin: 6px 0;
+			  }
+			}
+
+			@media only screen and (max-width: 500px) {
+			  .responsive {
+			    width: 100%;
+			  }
+			}
+
+			.clearfix:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+
+
 
 			
 			
@@ -94,11 +146,7 @@
   			<h1>AEyeAlliance</h1>
 		</div>
 		
-		<h2 style="text-align:center">A Braille-to-text Converter using Computer Vision</h2>
-
-		
-		
-		 	
+		<h2 style="text-align:left">A Braille-to-text Converter using Computer Vision</h2>
 
 		
 		<div class="sidebar">
@@ -109,6 +157,46 @@
 	  		<a href="aboutme.html"><i class="fa fa-fw fa-user"></i> About Me</a>
 	  		<a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
 		</div>
+
+
+		<div class="responsive">
+		  <div class="gallery">
+		    <a target="_blank" href="braille_char_chart.png">
+		      <img src="braille_char_chart.png" alt="Braille Chart" width="600" height="400">
+		    </a>
+		    <div class="desc">Our dataset: Braille37</div>
+		  </div>
+		</div>
+
+
+		<div class="responsive">
+		  <div class="gallery">
+		    <a target="_blank" href="web_and_android.gif">
+		      <img src="web_and_android.gif" alt="Website and Android App" width="600" height="400">
+		    </a>
+		    <div class="desc">Website (left) and Android App (right)</div>
+		  </div>
+		</div>
+
+		<div class="responsive">
+		  <div class="gallery">
+		    <a target="_blank" href="dataset_and_perf.png">
+		      <img src="dataset_and_perf.png" alt="Stats" width="600" height="400">
+		    </a>
+		    <div class="desc">Dataset size and Training Performance</div>
+		  </div>
+		</div>
+
+		<div class="responsive">
+		  <div class="gallery">
+		    <a target="_blank" href="demo_night.jpg">
+		      <img src="demo_night.jpg" alt="The Team" width="600" height="400">
+		    </a>
+		    <div class="desc">The Team</div>
+		  </div>
+		</div>
+
+		<div class="clearfix"></div>
 
 	</body>
 </html>
