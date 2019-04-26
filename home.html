@@ -23,11 +23,11 @@
 			
 			
 			body {
-				background-color:powderblue;
+				background-color:black;
 				font-family: "Trebuchet MS", Helvetica, sans-serif
 			}
 			
-			.sidebar {
+			/*.sidebar {
 			  height: 100%;
 			  width: 350px;
 			  position: fixed;
@@ -38,48 +38,56 @@
 			  overflow-x: hidden;
 			  padding-top: 16px;
 			}
-
-			.sidebar a { /*top right bottom left*/
-			  padding: 50px 8px 6px 60px;
+*/
+			/*.sidebar a { /*top right bottom left*/
+			/*  padding: 50px 8px 6px 60px;
 			  text-decoration: none;
 			  font-size: 30px;
 			  color: #818181;
 			  display: block;
 			}
-
-			.sidebar a:hover {
+*/			.header a {
+			padding: 50px 8px 6px 60px;
+			  text-decoration: none;
+			  font-size: 35px;
+			  color: #818181;
+			  
+}
+			.header a:hover {
 			  color: #99ffff;
 			}
 
-			
-
-			@media screen and (max-height: 450px) {
-			  .sidebar {padding-top: 15px;}
-			  .sidebar a {font-size: 18px;}
+			.header img:hover {
+				opacity: 0.85;
 			}
 
-			.sidebar img {
+			/*@media screen and (max-height: 450px) {
+			  .sidebar {padding-top: 15px;}
+			  .sidebar a {font-size: 18px;}
+			}*/
+
+			.header img {
 			  display:block;
-			  float: left;
+			  float: middle;
 			  
-			  width: 180px;
-			  height: 180px;
-			  padding: 35px 8px 6px 80px;
+			  width: 250px;
+			  height: 250px;
+			  /*padding: 35px 8px 6px 80px;*/
 			  
 			}
 		
 			.header {
-				background-color: #10ABBB;
+				background-color: black;
 				border-radius: 15px;
-				font-size:40px;
-				font-style: italic;
-				opacity: 0.6;
-				color: white;
-				margin-top:200px;
-				margin-left:360px;
+				font-size:45px;
+				
+				
+				color: #00cdcd;
+				margin-top: 95px;
+				margin-left:10px;
 				margin-right:10px;
 
-				padding:10px 10px 10px 300px;
+				padding:10px 10px 10px 10px;
 			  
 	
 			}
@@ -94,20 +102,20 @@
 	</head>
 	<body>
 		
-		<div class="header">
-		  
+		<div class="header" style="text-align: center">
+		  <center><img src="images/my_logo.png" alt="logo" /> </center>
 		  <h1>Wan-Chun Su</h1>
-		</div>  	
-
-		
-		<div class="sidebar">
-			<div> <img src="images/my_logo.png" alt="logo" /> </div>
-			<div style="clear: both">
+		  
 	  		<a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
 	  		<a href="aboutme.html"><i class="fa fa-fw fa-user"></i> About Me</a>
 	  		<a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
+		</div>  	
+
+		
+		
+			
 	  		
-		</div>
+	
 
 		<!-- <div class="div1">This div is smaller (width is 300px and height is 100px).</div> -->
 		
