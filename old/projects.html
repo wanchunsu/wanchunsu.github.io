@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- GA -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134221181-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-134221181-2');
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/png" href="images/my_logo.png" />
+		<title>
+		Wan-Chun Su
+		</title>
+		<style>
+			
+			
+			body {
+				/*background-color:powderblue;*/
+				background: linear-gradient(to top, #ffffff 0%, #66ffff 100%);
+				font-family: "Trebuchet MS", Helvetica, sans-serif
+				
+			}
+			/* ----- sidebar style ------*/
+			.sidebar {
+			  display:block;
+			  height: 100%;
+			  width: 350px;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  left: 0;
+			  background-color: #111;
+			  overflow-x: hidden;
+			  padding-top: 16px;
+			}
+
+			.sidebar a { /*top right bottom left*/
+			  padding: 50px 8px 6px 60px;
+			  text-decoration: none;
+			  font-size: 30px;
+			  color: #818181;
+			  display: block;
+			}
+
+			.sidebar a:hover {
+			  color: #99ffff;
+			}
+
+			
+
+			@media screen and (max-height: 450px) {
+			  .sidebar {padding-top: 15px;}
+			  .sidebar a {font-size: 18px;}
+			}
+
+			.sidebar img {
+			  display:block;
+			  float: left;
+			  
+			  width: 180px;
+			  height: 180px;
+			  padding: 35px 8px 6px 80px;
+			  
+			}
+
+			/* ----- sidebar style ------*/
+
+
+			/*.header {
+				margin-left:400px;
+			}*/
+			.header img {
+			  float: left;
+			  margin-left:400px;
+			  width: 100px;
+			  height: 100px;
+			  
+			}
+			.header img:hover{
+				opacity:0.7;
+			}
+
+			.header h1{
+				margin-left:400px;
+				margin-right:20px;
+			  position: relative;
+			  top: 18px;
+			  left: 10px;
+			}
+			.header h3 {
+				margin-left:400px;
+				margin-right: 20px;
+			}
+		/* ----- style for image gallery -----*/
+			div.gallery {
+
+			  	border: 1px solid #ccc;
+			}
+
+			div.gallery:hover {
+			  border: 1px solid #777;
+			}
+
+			div.gallery img {
+			  width: 100%;
+			  height: auto;
+			}
+
+			div.desc {
+			  padding: 15px;
+			  text-align: center;
+			}
+
+			/** {
+			  box-sizing: border-box;
+			}*/
+			.gallery_box{
+				margin-left:400px;
+			}
+			.responsive {
+				
+			  padding: 0 6px;
+			  float: left;
+			  width: 24.99999%;
+			  display: inline;
+			}
+
+			@media only screen and (max-width: 700px) {
+			  .responsive {
+			    width: 49.99999%;
+			    margin: 6px 0;
+			  }
+			}
+
+			@media only screen and (max-width: 500px) {
+			  .responsive {
+			    width: 100%;
+			  }
+			}
+
+			.clearfix:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+
+
+
+			
+			
+		</style>
+	</head>
+	<body>
+		<!-- <div class="header">
+		<h1> Still Under Maintenance </h1>
+	</div> -->
+		<div class="header">
+  			<a href="https://github.com/HelenG123/aeye-alliance"><img src="images/aea_logo.png" alt="logo" /> </a>
+  			<h1>AEyeAlliance</h1>
+  			<h2 style="text-align:left">A Braille-to-text Converter using Computer Vision</h2>
+		<h3 style="text-align:left">AEyeAlliance started out as a hackathon project inspired by one of our team member’s personal experience living with a blind host mother. We continued to develop this project after winning second place at the AI for Social Good Hackathon 2018.
+		Our AI system is now able to convert images of Braille characters into English text by employing a convolutional neural network model and a novel ratio character segmentation method. We also created our own dataset, Braille37, which consists of multiple copies of 37 Braille character classes. Click on our logo to find out more!
+		</h3>
+		</div>
+		
+
+		<div class=gallery_box>
+			<div class="responsive">
+		  		<div class="gallery">
+		    		<a target="_blank" href="images/android_app_cropped.gif">
+		      		<img src="images/android_app_cropped.gif" alt="Android App" width="100" height="200">
+		    		</a>
+		    		<div class="desc">Android App</div>
+		  	</div>
+			</div>
+			<div class="responsive">
+			  <div class="gallery">
+			    <a target="_blank" href="images/braille_char_chart.png">
+			      <img src="images/braille_char_chart.png" alt="Braille Chart" width="600" height="400">
+			    </a>
+			    <div class="desc">Our dataset: Braille37</div>
+			  </div>
+			</div>
+
+
+			<div class="responsive">
+			  <div class="gallery">
+			    <a target="_blank" href="images/web_app.gif">
+			      <img src="images/web_app.gif" alt="Website" width="600" height="400">
+			    </a>
+			    <div class="desc">Website</div>
+			  </div>
+			</div>
+
+			<div class="responsive">
+			  <div class="gallery">
+			    <a target="_blank" href="images/dataset_and_perf.png">
+			      <img src="images/dataset_and_perf.png" alt="Stats" width="600" height="400">
+			    </a>
+			    <div class="desc">Dataset size and Performance</div>
+			  </div>
+			</div>
+
+			<div class="responsive">
+			  <div class="gallery">
+			    <a target="_blank" href="images/demo_night.jpg">
+			      <img src="images/demo_night.jpg" alt="The Team" width="600" height="400">
+			    </a>
+			    <div class="desc">The Team</div>
+			  </div>
+			</div>
+			</div>
+		<div class="clearfix"></div>
+
+		<div class="sidebar">
+			<div> <img src="images/my_logo.png" alt="logo" /> </div>
+			<div style="clear: both">
+	  		<a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+	  		
+	  		<a href="aboutme.html"><i class="fa fa-fw fa-user"></i> About Me</a>
+	  		<a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
+		</div>
+
+
+		
+
+	</body>
+</html>
+
+
