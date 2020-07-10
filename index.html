@@ -1,9 +1,10 @@
-
 <!DOCTYPE html>
-<html>
-	<head>
-		
-		<!-- GA -->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - pw</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <!-- GA-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134221181-2"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -16,113 +17,76 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/png" href="images/my_logo.png" />
-		<title>
-		Wan-Chun Su
-		</title>
-		<style>
-			
-			
-			body {
-				background-color:black;
-				font-family: "Trebuchet MS", Helvetica, sans-serif
-			}
-			
-			/*.sidebar {
-			  height: 100%;
-			  width: 350px;
-			  position: fixed;
-			  z-index: 1;
-			  top: 0;
-			  left: 0;
-			  background-color: #111;
-			  overflow-x: hidden;
-			  padding-top: 16px;
-			}
-*/
-			/*.sidebar a { /*top right bottom left*/
-			/*  padding: 50px 8px 6px 60px;
-			  text-decoration: none;
-			  font-size: 30px;
-			  color: #818181;
-			  display: block;
-			}
-*/			.header a {
-			padding: 50px 8px 6px 60px;
-			  text-decoration: none;
-			  font-size: 35px;
-			  color: #818181;
-			  
-}
-			.header a:hover {
-			  color: #99ffff;
-			}
 
-			.header img:hover {
-				opacity: 0.85;
-			}
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="main_container" id="home">
+	<div class="navbar">
+		<div class="logo">
+			<a href="#">Wan-Chun Su</a>
+		</div>
+		<div class="navbar_items">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#projects">projects</a></li>
+			</ul>
+		</div>
+	</div>
 
-			/*@media screen and (max-height: 450px) {
-			  .sidebar {padding-top: 15px;}
-			  .sidebar a {font-size: 18px;}
-			}*/
+	<div class="banner_image" id="banner">
+		<div class="banner_content">
+			<!-- <h1>Hi, I'm<br/>
+				<span>Wan-Chun Su</span>
+			</h1> -->
+			<img src="images/my_logo.png" alt="logo" style="width:40%";/>
+			<p>Student, Researcher, Avid Traveller</p>
+			<!-- to fix -->
+			<!-- <a href="https://www.linkedin.com/in/wan-chun-su-1020"><i class="fab fa-linkedin"></i></a>
+		  	<a href="https://github.com/wanchunsu"><i class="fab fa-github"></i></a>
+		  	<a href="https://devpost.com/wanchunsu"><img src="images/devpost_btn.png" alt="devpost" width="32" height="29" border="0" ></a>
+		  	<a href="https://www.facebook.com/wanchun.su.50"><i class="fab fa-facebook-square"></i></a>
+		  	<a href="mailto:wan.su@mail.mcgill.ca" target="_blank"><i class="fas fa-envelope"></i></a> -->
+		  	
+		</div>
+	</div>
 
-			.header img {
-			  display:block;
-			  float: middle;
-			  
-			  width: 250px;
-			  height: 250px;
-			  /*padding: 35px 8px 6px 80px;*/
-			  
-			}
-		
-			.header {
-				background-color: black;
-				border-radius: 15px;
-				font-size:45px;
-				
-				
-				color: #00cdcd;
-				margin-top: 95px;
-				margin-left:10px;
-				margin-right:10px;
+	<div class="about" id="about">
+		<h1 class="title">About Me</h1>
+		<p>I recently completed my undergraduate studies in Computer Science and Biology at McGill University and will be starting my PhD in Quantitative Life Sciences (QLS). I am deeply passionate about the intersection of computational biology, AI and machine learning and am especially interested in the applications of quantitative approaches in the analysis of human diseases. During my spare time, I enjoy cooking, travelling and creating metal and wirework jewelry from scratch.</p>
+		<div class="btn"><a href="#">Learn More</a></div>
+	</div>
 
-				padding:10px 10px 10px 10px;
-			  
-	
-			}
-			.header h1{
-				text-shadow: 2px 2px 4px #000000;
-			}
-			.header h1:hover{
-				color: #A2F5BE;
-			}
-			
-		</style>
-	</head>
-	<body>
-		
-		<div class="header" style="text-align: center">
-		  <center><img src="images/my_logo.png" alt="logo" /> </center>
-		  <h1>Wan-Chun Su</h1>
-		  
-	  		<a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
-	  		<a href="aboutme.html"><i class="fa fa-fw fa-user"></i> About Me</a>
-	  		<a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
-		</div>  	
+	<div class="projects" id="projects">
+		<h1 class="title">My Projects</h1>
+		<p>Under Construction...</p>
 
-		
-		
-			
-	  		
-	
-
-		<!-- <div class="div1">This div is smaller (width is 300px and height is 100px).</div> -->
-		
-		
+		<!-- <div class="diff_services">
+			<div class="diff_service_item">
+				<img src="https://i.imgur.com/wyeA7Ct.png" alt="Service_image">
+				<h3>Web Development</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, blanditiis.</p>
+			</div>
+			<div class="diff_service_item">
+				<img src="https://i.imgur.com/zOqXKNN.png" alt="Service_image">
+				<h3>App Development</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, blanditiis.</p>
+			</div>
+			<div class="diff_service_item">
+				<img src="https://i.imgur.com/TLy9GMu.png" alt="Service_image">
+				<h3>PSD to HTML</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, blanditiis.</p>
+			</div>
+		</div> -->
+	</div>
 
 
-	</body>
+	<div class="arrow">
+		<a href="#home"><img src="https://i.imgur.com/wre6n0O.png" alt="up_arrow"></a>
+	</div>
+</div>
+<!-- partial -->
+  
+</body>
 </html>
-
-
