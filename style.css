@@ -12,8 +12,8 @@
 
 p{
 	margin-bottom: 20px;
-	margin-left: 70px;
-	margin-right: 70px;
+	/*margin-left: 70px;
+	margin-right: 70px;*/
 	margin-top: 20px;
 	font-size: 18px;
 	line-height: 20px;
@@ -171,8 +171,8 @@ h1.title{
 .diff_project_item h3{
 	color: #48D1CC;
 	margin-bottom: 15px;
-	margin-left: 70px;
-	margin-right: 70px;
+	/*margin-left: 70px;
+	margin-right: 70px;*/
 }
 
 /* arrow */
