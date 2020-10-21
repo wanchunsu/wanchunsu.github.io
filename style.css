@@ -11,13 +11,17 @@
 }
 
 p{
-	margin-bottom: 15px;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 20px;
 	font-size: 18px;
 	line-height: 20px;
 	color: #383838;
 }
 
 h1.title{
+
 	margin-bottom: 20px;
 	color: #000000;
 	font-family: 'Allura', cursive;
@@ -37,6 +41,9 @@ h1.title{
 	margin: 25px auto 0;
 	color: #40E0D0;
 	text-align: center;
+}
+.about img:hover {
+	opacity: 0.7;
 }
 
 .icons a {
@@ -110,7 +117,9 @@ h1.title{
 	justify-content: center;
 	align-items: center;
 }
-
+.banner_image img:hover{
+	opacity: 0.85;
+}
 .banner_content{
 	text-align: center;
 	color: #fff;
@@ -155,10 +164,15 @@ h1.title{
 	width: 50%;
 	margin-bottom: 25px;
 }
+.diff_project_item img:hover{
+	opacity: 0.85;
+}
 
 .diff_project_item h3{
 	color: #48D1CC;
 	margin-bottom: 15px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 /* arrow */
